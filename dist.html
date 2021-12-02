@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Balsamiq+Sans&family=Fredericka+the+Great&family=Kalam&family=Montserrat:ital,wght@1,500&family=Pacifico&family=Permanent+Marker&family=Rye&family=Satisfy&display=swap" rel="stylesheet">
+    
+ 
+
+
+    <link rel="stylesheet" href="dist.css">
+
+    <title>IP address</title>
+</head>
+<body>
+
+<section>  
+    
+   
+
+    <div class="imgBx">       
+        <br><br>
+        <center>
+            <img id="logo" src="logo2.png" alt="" height="170px" width="200px">
+        </center>
+
+    
+    <div class="main-container">
+
+        <div class="loader-container">
+            <div class="loader loader1"></div>
+            <div class="loader loader2"></div>
+            <div class="loader loader3"></div>
+        </div>
+
+
+  
+    
+    
+
+        <div class="details">
+            <h2 class="ip-display"></h2>
+            <h2 class="location-display"> </h2>
+            <h2 class="geo-display"></h2>
+        </div>     
+        
+    </div>
+
+    <h1>Health is the real wealth</h1>
+
+    </div>
+
+
+
+
+<div class="storyBx">
+       
+<style>
+
+
+body {
+font-family: 'Roboto', sans-serif;
+background: #db1616;
+position:relative;
+}
+
+
+/*-----------text-animation----------*/
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index:5;
+  transform:translate(-50%,-50%);
+}
+
+.text h1 span{
+  color:#fff9e6;
+  font-weight:300;
+  letter-spacing:1px;
+  font-size:50px;
+  display:inline-block;
+  word-spacing:5px;
+  padding: 8px;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+
+.word {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+  opacity: 0;
+  margin:auto;
+  max-width:700px;
+}
+
+.letter {
+    float: left;
+	word-spacing:5px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+
+
+/*-----------text-animation----------*/
+
+
+
+
+
+@media only screen and ( min-width:768px ){
+
+.left-bar-section,.right-bar-section{
+  background-color:#dfe1e9;
+}
+
+
+.fluiddark{
+   z-index:1;
+   position:absolute;
+   left:50%;
+   top:50%;
+   margin:0px auto;
+   transform:translate(-50%,-50%);
+   height:500px;
+   border-radius: 850.226px 797.379px 831.666px 804.283px;
+    width: 500px;
+    height: 500px;    
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px rgba(0,0,0,.8);
+   
+}
+
+}
+
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+
+.wrapper{
+  position:relative;
+  width:100%;
+  background: url(./img/bubble2.png) 140% 6% no-repeat, url(./img/lines.png) top center repeat-y #273040;
+  background-size: 44%, 70%;
+  overflow:hidden;
+}
+
+
+
+.planewrap{
+  position:fixed;
+  top:50%;
+  max-width:250px;
+  width:290px;
+  left:50%;
+  transition:600ms ease;
+  transform:translate(-50%,-50%);
+  z-index:2;
+}
+
+.planewrap img{
+  transition:0.5s ease;
+  animation:fadein 2.7s ease infinite;
+}
+
+@keyframes fadein{
+  0%{
+    transform:translatey(0px);
+  }
+   50%{
+    transform:translatey(15px);
+  }
+   100%{
+    transform:translatey(0px);
+  }
+}
+ 
+.navbar-scroll{
+   max-width:250px;
+   width:250px;
+}
+
+
+.bannertxt .text h1{
+  font-size:9vw;
+  color:white;
+}
+
+.bannersplat .scotty{
+   position:absolute;
+   left:50%;
+   top:50%;
+   z-index:1;
+   margin:0px auto;
+   transform:translate(-50%,-50%);
+}
+
+
+.fluid{
+   width:230px;
+   z-index:0;
+   position:absolute;
+   left:50%;
+   top:50%;
+   margin:0px auto;
+   transform:translate(-50%,-50%);
+   height:230px;
+   border-radius: 850.226px 797.379px 831.666px 804.283px;
+   background-color:#00e5ea;
+   
+}
+
+
+
+
+
+
+
+@keyframes wave{
+20%{
+   border-radius:45% 55% 62% 38% / 53% 51% 49% 47%;
+}
+ 40%{
+   border-radius:45% 55% 49% 51% / 36% 51% 49% 64%;
+}
+ 60%{
+   border-radius:60% 40% 57% 43% / 47% 62% 38% 53%;
+}
+ 80%{
+   border-radius:60% 40% 32% 68% / 38% 36% 64% 62%;
+}
+}
+
+
+
+
+
+
+.abouttext {
+    padding: 9% 8%;
+    width: 100%;
+	text-align:center;
+    margin: 16% auto 0%;
+    z-index: 50;
+    position: relative;
+    background-color: #273040bd;
+    box-shadow: 0 0 150px #000000a6;
+}
+
+.abouttext h2{
+  font-size:6vw;
+  color:#fff9e6;
+  font-weight:600;
+  font-family: 'Satisfy', cursive;
+}
+.abouttext p{
+  font-size:30px;
+  color:#fff9e6;
+  padding:0px 15px;
+  font-weight:400;
+}
+
+.abouttext p a{
+  font-size:30px;
+  color:#00e5ea;
+  text-decoration:underline;
+  padding:0px 20px;
+  font-weight:400;
+}
+
+
+.about-wrapper{
+  padding:70px 0px;
+  width:100%;
+  position:relative;
+  background: url(./img/bubble3.png) 140% 100% no-repeat;
+  background-size: 44%, 70%; 
+}
+
+
+
+.wavy-g{
+    background: url(./img/wavy.png) top center no-repeat;
+	background-size:100%;
+    padding: 15% 7%;
+    width: 100%;
+    position: relative;
+}
+
+.heading{
+  font-size:30px;
+  letter-spacing:1px;
+  color:white;
+  font-weight:600;
+}
+
+.hideme{
+  font-size:19px;
+  color:#7c8898;
+  font-weight:400;
+}
+
+.direction,.design{
+  padding-right:35px;
+}
+
+.strategy{
+  padding-left:35px;
+  margin: 50% 0 0 0;
+}
+
+.about-icon{
+  position:relative;
+  width:100%;
+  z-index:2;
+}
+
+
+.strategy .about-icon .circle-shape{
+   right:0;
+   top:-40px;
+}
+
+.design .about-icon .circle-shape{
+   left:0;
+   top:-40px;
+}
+
+
+
+.circle-shape{
+background-color:#ce6363;
+width:230px;
+position:absolute;
+height:230px;
+z-index:-1;
+border-radius: 850.226px 797.379px 831.666px 804.283px;
+animation:wave 5s linear infinite;
+}
+
+
+.workintro{
+  padding:0 0% 0 0 ;
+}
+
+.worktext h3{
+   font-size:70px;
+  color:white;
+  font-weight:700;
+}
+
+.worktext p{
+  font-size:22px;
+  line-height:35px;
+  margin-top:30px;
+  color:#7c8898;
+  font-weight:400;
+}
+
+
+.worktext a{
+   font-size:24px;
+  color:#00e5ea;
+  text-decoration:underline;
+  font-weight:500;
+}
+
+.work{
+  padding:13% 0%;
+}
+
+.workpic{
+  position:relative;
+  width:100%;
+  z-index:2;
+}
+
+
+@media only screen and (max-width:768px) {
+    #first {
+        order: 2;
+    }
+    #second {
+        order: 1;
+    }
+    #third {
+        order: 0;
+    }
+    #fourth {
+        order: 5;
+    }
+	
+	
+/*
+.big-circle-shape{
+background-color:#00e5ea;
+width:300px!important;
+position:absolute;
+top:50%;
+left:50%!important;
+transform:translate(-50%,-50%)!important;
+height:300px!important;
+z-index:-1;
+border-radius: 850.226px 797.379px 831.666px 804.283px;
+animation:wave 5s linear infinite;
+}
+*/
+
+.workpic {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+
+.left-bar-section,.right-bar-section{
+  position:fixed;
+  width:50px!important;
+  height:100%;
+}
+
+.logo-section,.copyright-section,.social-links,.ham-section{
+  z-index:999!important;
+  display:block!important;
+}
+
+.work-bg,.wavy-g,.about-wrapper{
+  position:relative;
+  z-index:30!important;
+  background-color: #273040bd!important;
+}
+
+.abouttext {
+    box-shadow:none!important;
+}
+
+
+.work-bg{
+box-shadow: 0 40px 50px #0000004d;
+	}
+	
+	.strategy {
+    margin:20% 0 20% 0!important;
+}
+	
+}
+
+/*
+.big-circle-shape{
+background-color:#00e5ea;
+width:500px;
+position:absolute;
+top:50%;
+transform:translatey(-50%);
+height:500px;
+z-index:-1;
+border-radius: 850.226px 797.379px 831.666px 804.283px;
+animation:wave 5s linear infinite;
+}
+*/
+
+
+
+
+.workpic img{
+ width:100%;
+}
+
+
+
+.contact-wrapper{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-text {
+    width: 100%;
+    padding-top:42vh;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+
+.contact-text h1 {
+    color: #fff;
+    text-align: center;
+    font-weight:700;
+    z-index: 2000;
+    font-size: 7vw;
+    letter-spacing: -2px;
+}
+
+.contact-text h1  a{
+  color:#00e5ea;
+  text-decoration:underline;
+}
+
+
+.left-bar-section,.right-bar-section{
+  position:fixed;
+  width:70px;
+  z-index:111;
+  height:100%;
+}
+
+.right-bar-section{
+     right:0;
+     background: #273040bd;
+}
+
+.left-bar-section{
+     left:0;
+}
+
+
+.link-section a ,.copyright-section p{
+    color:white;
+	text-transform:capitalize;
+	font-size:20px;
+	display:inline-block;
+	font-weight:600;
+	 writing-mode: vertical-rl;
+    text-decoration:underline;
+}
+.copyright-section p{
+  font-size:15px;
+  color: #4f5765;
+}
+
+.scroll-indicator{
+  width:10px;
+  height:50px;
+  position:absolute;
+  bottom:16px;
+  left:49.7%;
+  transform:translatex(-50%);
+  z-index:1;
+  animation: bounce 2s infinite;
+  margin:auto;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+  
+  
+  
+  
+  .overlay {
+  position: fixed;
+  background: #273040;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:888;
+  height: 100%;
+  opacity:0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+}
+  .overlay.open{
+  opacity: 1;
+  transition:.35s;
+  visibility: visible;
+  height: 100%;
+}
+
+
+.ham-section .open-menu{
+ display:inline-block;
+ width:50px;
+ margin:16px 0px 0px 0px;
+ text-align:center;
+ line-height:50px;
+ cursor:pointer;
+ animation:wave 5s linear infinite;
+ height:50px;
+ border-radius:50%;
+ background-color:#262d3a;
+}
+
+
+.close-menu{
+     position: fixed;
+     right: 12px;
+	 text-align:center;
+    line-height:50px;
+    cursor: pointer;
+    top: 16px;
+    width: 50px;
+	animation:wave 5s linear infinite;
+    height: 50px;
+    background-color:#212732;	
+    border-radius: 50%;
+}
+
+
+.navcolumn h2 {
+    text-align: left;
+    display: block;
+	font-weight:700;
+    margin-bottom: 30px;
+    font-size: 14px;
+	font-family:'Montserrat',sans-serif;
+    letter-spacing:2px;
+    color: #01b9c2;
+    text-transform: uppercase;
+}
+
+.m-200{
+  margin-top:20%;
+  padding-left:30px;
+}
+.navcolumn a {
+     font-family:'Montserrat',sans-serif;
+    text-align: left;
+    display: block;
+	font-weight:600;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.col-md-6 .cd-btn{
+    font-size: 24px;
+    color: #00e5ea;
+    text-decoration: underline;
+    font-weight: 500;
+}
+</style>
+
+<main>
+<div class="cd-index cd-main-content">
+
+
+<!--
+<div class="left-bar-section">
+  <div class="left-content-inner d-flex justify-content-between flex-column h-100">
+
+     
+	 
+	 <div class="link-section text-center d-none d-md-block d-sm-none">
+	      <center><a href="#"></a></center>
+	 </div>
+	 
+	
+	 
+  </div>
+</div>
+-->
+
+
+
+
+<!----RIGHT-BAR------->
+<div class="right-bar-section">
+
+  <div class="right-content-inner d-flex justify-content-between flex-column h-100">
+
+
+     <div class="ham-section d-flex justify-content-center">
+      <span class="open-menu"><img  src="img2/menu.svg" class="img-fluid" alt=""/></span>
+	 </div>
+	 
+	 <div class="link-section text-center d-none d-md-block d-sm-none"">
+	    <center><a href="#"></a></center>
+	 </div>
+	 
+	 
+   
+  </div>
+  
+</div>
+
+<!----RIGHT-BAR------->
+
+
+
+
+<!----nav------->
+<section class="nav-section overlay">
+    <div class="close-menu">
+	    <svg width="23.312" height="23.32" fill="#fff" viewBox="0 0 1000 1000">
+        <path d="M945.7 989.4L10 53.8 54.3 9.4 990 945.1l-44.3 44.3z"/>
+        <path d="M10 946.2L945.7 10.6 990 54.9 54.3 990.6 10 946.2z"/>
+        </svg>
+    </div>
+
+    <div class="container">
+	   <div class="row m-200">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4">
+		                <div class="navcolumn" id="nav-column-first">
+		                <h2>About</h2>
+		                <a class="cd-btn" href=""></a>
+		                <a class="cd-btn" href=""></a>
+	                    </div>
+	                </div>
+                    
+	                <div class="col-md-4">
+	                    <div class="navcolumn" id="nav-column-second">
+		                    <h2>Work</h2>
+		                    <a class="cd-btn" href="#"></a>
+		                    <a class="cd-btn" href="#"></a>
+		                    <a class="cd-btn" href="#"></a>
+	                    </div>
+                    </div>
+	
+                </div>
+	        </div>
+	    </div>
+	</div>
+</section>
+
+
+<!----nav------->
+
+
+
+<div class="wrapper">
+
+
+<div class="planewrap">
+<img id="plane" class="planey" src="img2/med2.png" width="100%" alt="">
+</div>
+
+
+<div class="bannersplat">
+
+    <!--
+	 <div class="text">
+  <h1>
+    <span class="word d-flex justify-content-center">Vaidya</span>
+    <span class="word d-flex justify-content-center">Arriving soon...</span>
+  </h1>
+</div>
+-->
+</div>
+
+<div class="scroll-indicator">
+  <img src="img2/scroll.svg" class="img-fluid"/>
+
+</div>
+
+
+<section class="about-section">
+  <div class="container-fluid px-sm-0 p-0">
+    <div class="row d-flex  justify-content-center">
+	    <div class="col-md-7">
+	      <div class="abouttext">
+	        <h2>
+           First aid guide lines
+	        </h2> 
+	        <div class="scroll-indicator">
+                <img src="img2/scroll.svg" class="img-fluid"/>
+            </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</section>
+
+
+
+	
+	<div class="wavy-g"></div>
+	
+
+	<section class="about-wrapper">
+<div class="container">
+    <div class="row d-flex  justify-content-center">
+	<div class="col-md-10">
+	<div class="row">
+	
+	<div class="col-md-6">
+		<div class="direction text-left">
+    <h6 class="heading">Talk to them.</h6>
+		<p class="hideme"> Someone who is asleep will respond to stimuli. One way to determine if someone is sleeping is by talking to them. 
+    Kneel or bend next to the person and gently say their name, tell them to open their eyes, or ask them if they are all right. 
+    Repeat this for five minutes or until the person wakes up.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div><br><br><br><br>
+		</div>
+		<br><br><br><br><br><br>
+
+
+		<div class="col-md-6">
+		<div class="strategy text-right">
+
+		
+		<div class=""></div>
+		<h6 class="heading">Gently shake <BR>the person.</h6>
+		<p class="hideme"> Place your hand on their shoulder and gently shake them. You can do this in combination with saying their name or asking if they are awake.
+       Do not shake them aggressively, shake their head, slap, or flick their face.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+		</div>
+		
+		
+		<div class="col-md-6">
+		<div class="design text-left">
+		<h6 class="heading"> Make a loud noise.</h6>
+		<p class="hideme">
+      Turning on the radio or TV, closing the door, loudly tapping on something, or playing an instrument may prompt someone to wake up, as well. However, do not play or make loud noises too close to the person’s ear.
+      This may startle the person or cause damage to their hearing.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+		</div>
+		
+    <div class="col-md-6">
+      <div class="strategy text-right">   
+      <div class=""></div>
+      <h6 class="heading">Look for symptoms<BR>of unconsciousness.</h6>
+      <p class="hideme">   If the person wakes up, then check for the following symptoms: amnesia, headache, confusion, lightheadedness, drowsiness, or a rapid heartbeat.
+        Also, check to see if they have the ability to move all of their body parts</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="design text-left">
+        <h6 class="heading">Ask them questions. </h6>
+        <p class="hideme">
+          If the person wakes up, you will need to determine how alert they are. Do this by asking them simple questions such as, 
+          “What is your name?” “What is the date?” and “How old are you?”</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="strategy text-right">     
+          <div class=""></div>
+          <h6 class="heading">Check their breathing.</h6>
+          <p class="hideme">
+            If the person is unresponsive, place one hand on their forehead and tilt their head back gently. Their mouth should slightly open reflexively.
+            At the same time, place your other hand on their chin and lift it. Move your head close to the person’s mouth to see if you can feel their
+             breath on your face or hear them breathing.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="design text-left">
+            <h6 class="heading">Give them something sweet.</h6>
+            <p class="hideme">            
+          Low blood sugar can cause a person to fall unconscious.
+          If you or the person who fainted knows this is the cause, then give them something sweet to eat like a Jolly Rancher or another small candy.
+          You can also give them something sweet to drink like Gatorade, juice, or lemonade. 
+          However, only do this after they regain consciousness.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="strategy text-right">              
+              <div class=""></div>
+              <h6 class="heading">Roll them.</h6>
+              <p class="hideme">
+               Kneel by their side and place their arm closest to you at a right angle to their body with their palm facing up. Place their other hand across their chest with the back of their palm lying flat against their cheek. 
+                Hold this arm in place with your hand. 
+                Then, with your other hand, pull their farther knee up and over their other leg until their foot is flat on the ground. Gently pull on their lifted knee and roll them toward you until they are on their side.
+                Now they are in a recovery position.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="design text-left">
+                <h6 class="heading">Call emergency services. </h6>
+                <p class="hideme">         
+                Once the person is in the recovery position, call emergency services for emergency medical help. 
+                Keep monitoring their breathing until the medics arrive.
+                If they stop breathing you or someone else will need to perform CPR.</p><a class="cd-btn" href="https://www.wikihow.com/Tell-if-Someone-Is-Unconscious-or-Sleeping">View Work</a></div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="strategy text-right">              
+                  <div class=""></div>
+                  <h6 class="heading">CPR</h6>
+                  <p class="hideme">
+                    Knowing how to perform both methods of CPR (cardiopulmonary resuscitation) on an adult could save a life. 
+                    However, the recommended method for performing CPR has changed relatively recently, and it is important to know the difference. 
+                    In 2010, the American Heart Association made a radical change to the recommended CPR process for victims of cardiac arrest after studies 
+                    showed that compression-focused CPR (with little mouth-to-mouth breathing) is as effective as the traditional approach.</p><a class="cd-btn" href="https://www.wikihow.com/Do-CPR-on-an-Adult">View Work</a></div>
+                  </div>
+
+
+	</div>
+	
+	</div>
+	</div>
+	</div>
+  </section>
+  
+  
+  
+  
+ 
+
+
+
+
+<div class="workclose"><img src="img2/wavy2.png" class="img-fluid" width="" height="" alt=""></div>
+	
+	
+<section class="contact-wrapper">
+
+  <div class="contact-text">
+    <h1> <a class="cd-btn" href="#"></a></h1>
+  </div>
+
+  <div class="bannersplat">
+
+	  <div class="scotty"><img src="img2/scotland.png" width="" height="" alt=""></div>
+
+    <div class="fluid"></div>
+
+	  <div class="fluiddark"></div>
+	
+	</div>	
+
+</section>
+
+
+
+
+</div>
+
+</div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+   <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+  
+  
+
+  
+   <script>
+var words = document.getElementsByClassName('word');
+var wordArray = [];
+var currentWord = 0;
+
+words[currentWord].style.opacity = 1;
+for (var i = 0; i < words.length; i++) {
+  splitLetters(words[i]);
+}
+
+function changeWord() {
+  var cw = wordArray[currentWord];
+  var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
+  for (var i = 0; i < cw.length; i++) {
+    animateLetterOut(cw, i);
+  }
+  
+  for (var i = 0; i < nw.length; i++) {
+    nw[i].className = 'letter behind';
+    nw[0].parentElement.style.opacity = 1;
+    animateLetterIn(nw, i);
+  }
+  
+  currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
+}
+
+function animateLetterOut(cw, i) {
+  setTimeout(function() {
+		cw[i].className = 'letter out';
+  }, i*80);
+}
+
+function animateLetterIn(nw, i) {
+  setTimeout(function() {
+		nw[i].className = 'letter in';
+  }, 340+(i*80));
+}
+
+function splitLetters(word) {
+  var content = word.innerHTML;
+  word.innerHTML = '';
+  var letters = [];
+  for (var i = 0; i < content.length; i++) {
+    var letter = document.createElement('span');
+    letter.className = 'letter';
+    letter.innerHTML = content.charAt(i);
+    word.appendChild(letter);
+    letters.push(letter);
+  }
+  
+  wordArray.push(letters);
+}
+
+changeWord();
+setInterval(changeWord, 4000);
+
+
+  </script>
+  
+  
+  
+  
+    	  <script>
+ $(document).ready(function(){
+     	$(window).scroll(function(){
+		if($(window).scrollTop() < 100){ //-navbar-----scrolltop---fixed---jquery--/
+			$('.planewrap').removeClass('navbar-scroll');
+		} 
+		else {
+		   $('.planewrap').addClass('navbar-scroll');
+		}
+});
+
+ });
+
+</script>
+
+
+ <script type="text/javascript">
+   $(document).ready(function() {
+  $('.open-menu').on('click', function() {
+     $('.overlay').addClass('open');
+  });
+
+  $('.close-menu').on('click', function() {
+    $('.overlay').removeClass('open');
+  });
+});
+
+  </script>
+
+    </div>
+
+
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+    integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="dist.js"></script>
+</body>
+
+</html>
